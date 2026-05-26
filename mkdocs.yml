@@ -1,0 +1,7 @@
+site_name: '瞬影WiKi'
+theme:
+  name: material
+  logo: https://pic1.imgdb.cn/item/6a1411155df9b510b16ffdad.webp
+nav:
+    - 简介: index.md
+    - 瞬影公费服: Public_expense.md
