@@ -1,6 +1,7 @@
 site_name: '瞬影WiKi'
 theme:
   name: material
+  custom_dir: overrides
   logo: https://pic1.imgdb.cn/item/6a1411155df9b510b16ffdad.webp
   palette:
     # 浅色模式配置
