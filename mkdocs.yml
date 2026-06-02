@@ -2,6 +2,26 @@ site_name: '瞬影WiKi'
 theme:
   name: material
   logo: https://pic1.imgdb.cn/item/6a1411155df9b510b16ffdad.webp
+  palette:
+    # 浅色模式配置
+    - scheme: default
+      primary: indigo       # 主题主色
+      accent: indigo        # 强调色（用于链接、按钮等）
+      toggle:
+        icon: material/brightness-7   # 显示的图标（太阳）
+        name: 切换深色模式     # 鼠标悬停提示文本
+
+    # 深色模式配置
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4   # 显示的图标（月亮）
+        name: 切换浅色模式     # 鼠标悬停提示文本
 nav:
     - 简介: index.md
     - 瞬影公费服: Public_expense.md
+    - Emby播放器列表: player.md
+
+
+

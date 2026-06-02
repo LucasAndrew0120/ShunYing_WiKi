@@ -50,8 +50,13 @@
 
 - 🕊 早鸟白名单：特惠价 349 元（原价 599 元，仅限前 10 名！注：其余套餐将在综合评测稳定后陆续开放）
 
-- 🛒 自助购卡网站：[点击前往购买](https://pay.ldxp.cn/item/f8bh9e)
+- 🛒 自助购卡网站：[点击前往购买](https://pay.ldxp.cn/shop/VEKJ3ZGK)
 
 - 🤖 自助开通 Bot：[@syembyvip_bot](https://t.me/syembyvip_bot)
 
 🛑 购买须知：虚拟商品一经售出，均不支持退款。请在购买前仔细对比自身需求，慎重考虑！
+
+<p align="right">
+  编辑于<br>
+  2026年5月26日
+</p>
