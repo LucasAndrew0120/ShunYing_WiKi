@@ -4,4 +4,19 @@
 {{ super() }}
 <!-- Umami tracking script -->
 <script defer src="https://umami.lris625.top/script.js" data-website-id="ae020fdf-52f0-44d9-98b4-2bc8ac304803"></script>
+<!-- Twikoo comment system -->
+<script src="https://registry.npmmirror.com/twikoo/1.7.11/files/dist/twikoo.min.js"></script>
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+<div id="tcomment"></div>
+<script>
+twikoo.init({
+  envId: 'https://twikoo.lris625.top/',
+  el: '#tcomment',
+  path: '/wiki' + location.pathname,
+  lang: 'zh-CN',
+})
+</script>
 {% endblock %}
