@@ -7,3 +7,5 @@ mkdocs build
 
 
 echo "=== 部署完成 ==="
+
+mkdocs serve
