@@ -6,6 +6,50 @@
 <script defer src="https://umami.lris625.top/script.js" data-website-id="40d7b394-2b99-48dc-b6b6-66c43dd0c4fa"></script>
 <!-- Twikoo comment system -->
 <script src="{{ base_url }}/js/twikoo.min.js"></script>
+<style>
+.lb-overlay {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,.85); z-index: 9999;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity .25s ease;
+}
+.lb-overlay.show { opacity: 1; pointer-events: auto; }
+.lb-overlay img {
+  max-width: 92vw; max-height: 92vh;
+  border-radius: 4px; box-shadow: 0 4px 30px rgba(0,0,0,.5);
+  cursor: zoom-out; transform: scale(.9); transition: transform .25s ease;
+}
+.lb-overlay.show img { transform: scale(1); }
+.lb-close {
+  position: absolute; top: 16px; right: 24px;
+  font-size: 36px; color: #fff; cursor: pointer;
+  line-height: 1; user-select: none; z-index: 1;
+}
+.lb-close:hover { opacity: .7; }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var overlay = document.createElement('div');
+  overlay.className = 'lb-overlay';
+  overlay.innerHTML = '<span class="lb-close">&times;</span><img>';
+  document.body.appendChild(overlay);
+  var img = overlay.querySelector('img');
+
+  function show(src) { img.src = src; overlay.classList.add('show'); }
+  function hide() { overlay.classList.remove('show'); setTimeout(function(){ img.src = ''; }, 300); }
+
+  overlay.addEventListener('click', function(e) { if (e.target !== img) hide(); });
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') hide(); });
+
+  var content = document.querySelector('article') || document.querySelector('.md-content');
+  if (content) {
+    content.querySelectorAll('img').forEach(function(el) {
+      el.style.cursor = 'zoom-in';
+      el.addEventListener('click', function() { show(el.src); });
+    });
+  }
+});
+</script>
 {% endblock %}
 
 {% block content %}
