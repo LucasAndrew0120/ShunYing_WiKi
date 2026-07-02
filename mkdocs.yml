@@ -20,8 +20,9 @@ theme:
         icon: material/brightness-4   # 显示的图标（月亮）
         name: 切换浅色模式     # 鼠标悬停提示文本
 nav:
-    - 简介: index.md
-    - 瞬影公费服: Public_expense.md
+    - 瞬影公费服: index.md
+    - 公费服面板使用指南: panel.md
+    - 卡顿自测教程: speed.md
     - Emby播放器列表: player.md
     - Emby常见错误码: error.md
 

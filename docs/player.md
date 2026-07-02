@@ -12,7 +12,7 @@
 - **BoxPlayer** [下载地址](https://apps.apple.com/cn/app/boxplayer/id6739804060) 🟢iOS丨TV丨Mac
 - **Femor** [下载地址](https://t.me/femor_notice) 🟢iOS丨TV丨Mac
 - **iPlay** [下载地址](https://apps.apple.com/cn/app/iplay/id6480576133) 🟢iOS丨TV丨Mac
-- **Emby官端** [下载地址](https://apps.apple.com/us/app/emby/id992180193) 🟢iOS丨TV丨Mac ( **本服禁止使用** )
+- **VidHub** [下载地址](https://apps.apple.com/cn/app/vidhub-%E9%AB%98%E6%B8%85%E5%BD%B1%E7%89%87%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8-%E7%9B%B4%E8%BF%9E%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/id1659622164) | [群组](https://t.me/macappsupportgroup) 🟢iOS丨TV丨Mac
 - **AGC Player** [下载地址](https://apps.apple.com/us/app/agc-video-player/id6670426427) | [群组](https://t.me/agcplayer) 🟢iOS丨TV丨Mac
 - **DS One** [下载地址](https://apps.apple.com/tr/app/ds-cloud-video-library-player/id6476057278) | [群组](https://t.me/dscloudfeedback) 🟢iOS丨TV
 - **Reflix** [下载地址](https://apps.apple.com/us/app/reflix/id6621243955?l=zh-Hans-CN) | [群组](https://t.me/+BrlwQi99J41hMzQ1) 🟢iOS丨TV
@@ -25,7 +25,8 @@
 - **kinby** [下载地址](https://kinby.xac.one/) | [群组](https://t.me/kinby_official) 🟢Mac
 - **Infuse** [下载地址](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934) 🟢iOS丨TV丨Mac   ( **本服禁止使用媒体库功能** )
 - **爆米花** [下载地址](https://bmh.163.com/) 🟢iOS丨TV丨Mac ( **本服禁止使用** )
-- **VidHub** [下载地址](https://apps.apple.com/cn/app/vidhub-%E9%AB%98%E6%B8%85%E5%BD%B1%E7%89%87%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8-%E7%9B%B4%E8%BF%9E%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/id1659622164) | [群组](https://t.me/macappsupportgroup) 🟢iOS丨TV丨Mac ( **本服禁止使用** )
+- **Emby官端** [下载地址](https://apps.apple.com/us/app/emby/id992180193) 🟢iOS丨TV丨Mac ( **本服禁止使用** )
+ 
 
 ## 💋 安卓手机 / 平板
 
@@ -42,8 +43,8 @@
 - **Emora** [下载地址](https://t.me/emora_official/3) 
 - **Findroid** [下载地址](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin&hl=en_US) 
 - **iPlay** [下载地址](https://github.com/ourfor/iPlay/releases)
+- **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/)
 - **爆米花** [下载地址](https://bmh.163.com/)  ( **本服禁止使用** )
-- **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/) ( **本服禁止使用** )
 - **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
 - **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
 
@@ -51,6 +52,7 @@
 
 - **Hills Lite** [下载地址](https://apps.microsoft.com/detail/9nxnzfrllwzx?hl=zh-CN&gl=CN) ( **推荐** )
 - **小幻影视** [下载地址](https://apps.microsoft.com/detail/9nb0h051m4v4?hl=zh-CN&gl=CN) ( **推荐** )
+- **AI Player** [下载地址](https://t.me/aiemby)
 - **Tsukimi** [下载地址](https://github.com/tsukinaha/tsukimi/releases)
 - **Femor** [下载地址](https://t.me/femor_notice)
 - **Cinetry** [下载地址](https://github.com/gstory0404/Cinetry)
@@ -73,7 +75,7 @@
 - **AGC Player** [下载地址](https://agcplayer.com/)
 - **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119)
 - **TvxEmby** [下载地址](https://t.me/tvxemby)
-- **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/) ( **本服禁止使用** )
+- **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/)
 - **爆米花** [下载地址](https://bmh.163.com/) ( **本服禁止使用** )
 - **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
  
@@ -81,7 +83,7 @@
 
 <p align="right">
   编辑于<br>
-  2026年5月29日
+  2026年6月17日
 </p>
 
 

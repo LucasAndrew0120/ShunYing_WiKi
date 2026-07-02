@@ -16,17 +16,7 @@
 **触碰以上规则的都会秒封，不支持解封**
 
 ## 禁用的客户端（UA）
-1. Emby 官方客户端
-	- Emby for Android
-	- Emby for iOS
-	- Emby for Apple TV
-	- Emby for Windows
-	- Emby for Samsung
-	- Emby for LG
-	- Emby Theater
-	- Emby Windows
-	- Emby Web
-	- Emby Web Client
+1. Emby 官方客户端，网页端
 
 2. TV / 电视端相关
 	- Roku
@@ -35,7 +25,6 @@
 3. 第三方 / 其他客户端
 	- infuse-library 
 	- Filmly
-	- VidHub
 	- 网易爆米花
 	- 小秘
 
