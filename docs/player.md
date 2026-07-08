@@ -23,8 +23,8 @@
 - **Iemc** [下载地址](https://apps.apple.com/cn/app/iemc/id1467462861) 🟢iOS
 - **BeeJoy** [下载地址](https://apps.apple.com/us/app/beejoy/id6670792086) 🟢iOS
 - **kinby** [下载地址](https://kinby.xac.one/) | [群组](https://t.me/kinby_official) 🟢Mac
+- **爆米花** [下载地址](https://bmh.163.com/) 🟢iOS丨TV丨Mac 
 - **Infuse** [下载地址](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934) 🟢iOS丨TV丨Mac   ( **本服禁止使用媒体库功能** )
-- **爆米花** [下载地址](https://bmh.163.com/) 🟢iOS丨TV丨Mac ( **本服禁止使用** )
 - **Emby官端** [下载地址](https://apps.apple.com/us/app/emby/id992180193) 🟢iOS丨TV丨Mac ( **本服禁止使用** )
  
 
@@ -44,7 +44,7 @@
 - **Findroid** [下载地址](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin&hl=en_US) 
 - **iPlay** [下载地址](https://github.com/ourfor/iPlay/releases)
 - **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/)
-- **爆米花** [下载地址](https://bmh.163.com/)  ( **本服禁止使用** )
+- **爆米花** [下载地址](https://bmh.163.com/)
 - **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
 - **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
 
@@ -59,8 +59,8 @@
 - **kinby** [下载地址](https://kinby.xac.one/)
 - **NipaPlay** [下载地址](https://github.com/MCDFsteve/NipaPlay-Reload/releases) 
 - **iPlay** [下载地址](https://github.com/ourfor/iPlay/releases)
+- **爆米花** [下载地址](https://bmh.163.com/) 
 - **Emby官端** [下载地址](https://emby.media/emby-for-windows.html) ( **本服禁止使用** )
-- **爆米花** [下载地址](https://bmh.163.com/) ( **本服禁止使用** )
 - **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
 
 ## 📱 安卓TV
@@ -73,17 +73,17 @@
 - **Afusekt** [下载地址](https://github.com/AttemptD/AfuseKt-release)
 - **kinby** [下载地址](https://kinby.xac.one/)
 - **AGC Player** [下载地址](https://agcplayer.com/)
-- **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119)
 - **TvxEmby** [下载地址](https://t.me/tvxemby)
 - **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/)
-- **爆米花** [下载地址](https://bmh.163.com/) ( **本服禁止使用** )
+- **爆米花** [下载地址](https://bmh.163.com/) 
+- **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
 - **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
  
 ## 转自频道[Emby Wiki](https://t.me/embywiki)
 
 <p align="right">
   编辑于<br>
-  2026年6月17日
+  2026年7月7日
 </p>
 
 
