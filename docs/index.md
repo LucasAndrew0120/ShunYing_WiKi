@@ -49,22 +49,43 @@
 
 ## 禁用的客户端（UA）
 
-1. Emby 官方客户端，网页端
+一、Emby 官方客户端
 
-2. TV / 电视端相关
-	- Roku
-	- Roku SG
+- Emby for Android
+- Emby for iOS
+- Emby for Apple TV
+- Emby for Windows
+- Emby for Samsung
+- Emby for LG
+- Emby Theater
+- Emby Windows
+- Emby Web
+- Emby Web Client
 
-3. 第三方 / 其他客户端
-	- infuse-library 
-	- Filmly
-	- 小秘
+二、TV / 电视端相关
+- Roku
+- Roku SG
 
-4. 冷门播放器
+三、第三方 / 其他客户端
 
-5. 管理及网页相关
-	- Dashboard
+- infuse-library 
+- railux
+- jizhiplayer
+- beejoy-library
 
+
+(任务媒体库模式的均不允许)
+
+冷门播放器无法判断请求数是否过大，从而对服务器造成拥堵。
+所以冷门播放器也会不定时加入黑名单中。
+
+注:本人时间，能力有限，不会对任何冷门播放器进行检测进行放行。
+随着使用者增加以及知名度上升，本服会酌情剔除出黑名单目录.
+
+
+四、管理及网页相关
+
+- Dashboard
 ## 🚫严禁事项
 
 - ⛔严禁使用[黑名单客户端](https://wiki.lris625.top/player/)
@@ -80,5 +101,5 @@
 
 <p align="right">
   编辑于<br>
-  2026年7月7日
+  2026年7月8日
 </p>
