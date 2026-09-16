@@ -1,5 +1,12 @@
 > **已做好软件推荐和禁用提示，请读者分辨**
 
+## 总体规则
+
+1. Infuse（禁止媒体库模式）
+2. 禁止网页端登录
+3. 禁止emby官方客户端
+4. 一切冷门和新出播放器
+
 ## 🍏 苹果用户
 
 - **SenPlayer** [下载地址](https://apps.apple.com/cn/app/senplayer/id6443975850) | [群组](https://t.me/SenPlayerApp) 🟢iOS丨TV丨Mac ( **推荐** )
@@ -73,9 +80,9 @@
 - **Afusekt** [下载地址](https://github.com/AttemptD/AfuseKt-release)
 - **kinby** [下载地址](https://kinby.xac.one/)
 - **AGC Player** [下载地址](https://agcplayer.com/)
-- **TvxEmby** [下载地址](https://t.me/tvxemby)
 - **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/)
 - **爆米花** [下载地址](https://bmh.163.com/) 
+- **TvxEmby** [下载地址](https://t.me/tvxemby) ( **本服禁止使用** )
 - **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
 - **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
  
@@ -83,7 +90,7 @@
 
 <p align="right">
   编辑于<br>
-  2026年7月7日
+  2026年9月16日
 </p>
 
 
