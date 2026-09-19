@@ -1,0 +1,212 @@
+:root {
+  --vp-c-brand-1: rgb(29 196 222);
+  --vp-c-brand-2: rgb(25 176 200);
+  --vp-c-brand-3: rgb(21 156 178);
+  --vp-c-brand-soft: rgb(29 196 222 / 14%);
+  --vp-button-brand-border: rgb(29 196 222);
+  --vp-button-brand-bg: rgb(29 196 222);
+  --vp-button-brand-hover-border: rgb(25 176 200);
+  --vp-button-brand-hover-bg: rgb(25 176 200);
+  --vp-button-brand-active-border: rgb(21 156 178);
+  --vp-button-brand-active-bg: rgb(21 156 178);
+  --wiki-watermark-x: 75%;
+  --wiki-watermark-y: 20%;
+  --wiki-watermark-size: clamp(260px, 30vw, 450px);
+}
+
+.dark {
+  --vp-c-brand-1: rgb(29 196 222);
+  --vp-c-brand-2: rgb(52 207 229);
+  --vp-c-brand-3: rgb(84 218 237);
+  --vp-c-brand-soft: rgb(29 196 222 / 16%);
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: url('https://pic1.imgdb.cn/i/034RbImgvFoMSxx9j2ORr3.svg');
+  background-repeat: no-repeat;
+  background-position: var(--wiki-watermark-x) var(--wiki-watermark-y);
+  background-size: var(--wiki-watermark-size);
+  content: '';
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+.VPHero .name {
+  letter-spacing: -0.045em;
+}
+
+.VPHero .text {
+  max-width: 680px;
+  letter-spacing: -0.03em;
+}
+
+.wk-word-count {
+  margin-left: 12px;
+  color: var(--vp-c-text-3);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.VPHero .actions .action:first-child .VPButton {
+  border-color: rgb(22 72 141);
+  background: rgb(22 72 141);
+}
+
+.VPHero .actions .action:first-child .VPButton:hover {
+  border-color: rgb(18 61 120);
+  background: rgb(18 61 120);
+}
+
+.VPHero .actions .action:first-child .VPButton:active {
+  border-color: rgb(15 51 101);
+  background: rgb(15 51 101);
+}
+
+.VPFeature {
+  border-color: rgb(29 196 222 / 18%);
+  background: color-mix(in srgb, var(--vp-c-bg-soft) 82%, transparent);
+  backdrop-filter: blur(12px);
+}
+
+.vp-doc h1 {
+  letter-spacing: -0.025em;
+}
+
+.vp-doc h2 {
+  border-top: 0;
+}
+
+.vp-doc blockquote {
+  border-left-color: var(--vp-c-brand-1);
+  border-radius: 0 8px 8px 0;
+  background: var(--vp-c-brand-soft);
+}
+
+.vp-doc img:not(.image-viewer-stage img) {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgb(15 23 42 / 10%);
+  cursor: zoom-in;
+}
+
+.wk-img-caption {
+  display: block;
+  margin-top: 6px;
+  color: var(--vp-c-text-3);
+  font-size: 13px;
+  text-align: center;
+}
+
+.xlsx-cards {
+  margin: 16px 0;
+}
+
+.xlsx-card-group {
+  margin-bottom: 28px;
+}
+
+.xlsx-card-group-title,
+.xlsx-sheet-title {
+  margin: 24px 0 12px !important;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--vp-c-divider);
+  font-size: 18px !important;
+}
+
+.xlsx-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.xlsx-card-face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  height: 100%;
+  padding: 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.xlsx-card-face:hover {
+  box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
+  transform: translateY(-2px);
+}
+
+.xlsx-card-avatar-el {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.xlsx-card-name {
+  color: var(--vp-c-text-1);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.xlsx-card-desc {
+  color: var(--vp-c-text-2);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.xlsx-card-tags,
+.xlsx-card-info,
+.xlsx-card-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.xlsx-badge {
+  padding: 1px 7px;
+  border-radius: 12px;
+  color: var(--vp-c-tip-1);
+  background: var(--vp-c-tip-soft);
+  font-size: 11.5px;
+}
+
+.xlsx-card-link {
+  padding: 0;
+  border: 0;
+  color: var(--vp-c-brand-1);
+  background: transparent;
+  cursor: pointer;
+}
+
+.vp-doc a {
+  text-underline-offset: 3px;
+}
+
+.VPFooter.has-sidebar {
+  display: block !important;
+}
+
+.tk-comments-container,
+.tk-comments,
+.vp-doc {
+  overflow: visible !important;
+}
+
+.OwO-body {
+  z-index: 10001 !important;
+}
+
+@media (max-width: 640px) {
+  .vp-doc h1 {
+    font-size: 28px;
+  }
+}

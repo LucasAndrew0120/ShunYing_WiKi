@@ -1,3 +1,11 @@
+---
+title: Emby 常见错误码
+description: Emby HTTP 与 Cloudflare 常见错误码说明
+order: 7
+---
+
+# Emby 常见错误码
+
 > **Emby常见HTTP 标准错误码，如遇错误代码请自查自测**
 
 
@@ -25,8 +33,3 @@
 - **525** SSL 握手失败
 - **526** SSL 证书无效
 - **530** 源站 DNS 解析错误
-
-<p align="right">
-  编辑于<br>
-  2026年6月5日
-</p>

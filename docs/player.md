@@ -1,3 +1,11 @@
+---
+title: Emby 播放器列表
+description: 各平台 Emby 播放器推荐与禁用说明
+order: 6
+---
+
+# Emby 播放器列表
+
 > **已做好软件推荐和禁用提示，请读者分辨**
 
 ## 总体规则
@@ -87,10 +95,3 @@
 - **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
  
 ## 转自频道[Emby Wiki](https://t.me/embywiki)
-
-<p align="right">
-  编辑于<br>
-  2026年9月16日
-</p>
-
-

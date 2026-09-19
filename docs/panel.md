@@ -1,3 +1,11 @@
+---
+title: 公费服面板使用指南
+description: 账号开通、线路获取、密码修改、求片与续费说明
+order: 4
+---
+
+# 公费服面板使用指南
+
 ## 简介
 
 公费服面板包含账号管理，线路获取，媒体库查询，求片中心等功能
@@ -34,8 +42,3 @@
 ![发卡站](https://pic1.imgdb.cn/item/6a3254f294699c9c612412c4.webp)
 2. 进入[面板](https://ad.syemby.com/),点击左侧**用户续费**
 ![用户续费](https://pic1.imgdb.cn/item/6a3257fb94699c9c612419e0.webp)
-
-<p align="right">
-  编辑于<br>
-  2026年6月17日
-</p>
