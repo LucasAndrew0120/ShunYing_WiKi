@@ -46,7 +46,7 @@ const pages = buildPages()
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '瞬影 WiKi',
+  title: '瞬影 Emby',
   description: '瞬影 Emby 服务说明、使用指南与常见问题',
   cleanUrls: true,
   lastUpdated: true,
@@ -112,7 +112,7 @@ export default defineConfig({
       },
     },
     footer: {
-      message: `瞬影 WiKi · 全站 ${siteStats.articleCount} 篇 · 共 ${formattedWordCount} 字`,
+      message: `瞬影 Emby · 全站 ${siteStats.articleCount} 篇 · 共 ${formattedWordCount} 字`,
       copyright: '文档内容仅供瞬影用户参考',
     },
   },

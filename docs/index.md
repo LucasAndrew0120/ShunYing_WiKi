@@ -1,12 +1,12 @@
 ---
 layout: home
-title: 瞬影 WiKi
+title: 瞬影 Emby
 description: 瞬影 Emby 服务说明、使用指南与常见问题
 wordCount: false
 order: 1
 
 hero:
-  name: 瞬影 WiKi
+  name: 瞬影 Emby
   text: 高清影音，从这里开始
   tagline: 服务说明、线路指引、播放器推荐与常见问题，一站查阅。
   actions:
