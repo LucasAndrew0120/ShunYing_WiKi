@@ -4,6 +4,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vitepress'
 import { ImageViewer } from 'vitepress-wiki-kit'
 import TwikooComments from './components/TwikooComments.vue'
+import Contributors from './components/Contributors.vue'
 
 const route = useRoute()
 const showComments = computed(() => route.path !== '/')
@@ -16,6 +17,9 @@ const commentPath = computed(() => {
 
 <template>
   <DefaultTheme.Layout>
+    <template #doc-footer-before>
+      <Contributors />
+    </template>
     <template #doc-after>
       <TwikooComments
         v-if="showComments"

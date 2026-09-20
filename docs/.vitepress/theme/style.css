@@ -195,6 +195,14 @@ body::before {
   display: block !important;
 }
 
+.VPDocFooter .contributors {
+  width: 100%;
+}
+
+.VPDocFooter:has(.contributors) .last-updated {
+  display: none;
+}
+
 .tk-comments-container,
 .tk-comments,
 .vp-doc {
