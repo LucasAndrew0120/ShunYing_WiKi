@@ -22,6 +22,8 @@ npm run preview
 .\build.ps1
 ```
 
+预览默认使用 `6657` 端口；如果端口已被占用，脚本会自动递增并选择下一个空闲端口。
+
 站点配置位于 `docs/.vitepress/config.ts`，文章位于 `docs/`。新增 Markdown 后会自动加入导航，标题优先读取 frontmatter `title`，未配置时读取文章的一级标题；使用 `order` 控制排序。
 
-仓库内完整安装了 `packages/vitepress-wiki-kit`，包含自动导航、中文搜索、字数统计、图片题注、Gallery、AppCards、Flink/Flinks、ImageViewer、Twikoo 入口和 XLSX 渲染。
+仓库内完整安装了 `packages/vitepress-wiki-kit`，包含自动导航、中文搜索、字数统计、图片题注、Gallery、AppCards、Flink/Flinks、ImageViewer、Twikoo 入口和 XLSX 渲染。开发和构建前还会从 Git 历史自动生成每篇文章的贡献者信息。
