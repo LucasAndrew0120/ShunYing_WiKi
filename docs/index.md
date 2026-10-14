@@ -8,7 +8,7 @@ order: 1
 hero:
   name: 瞬影 Emby
   text: 高清影音，从这里开始
-  tagline: 服务说明、线路指引、播放器推荐与常见问题，一站查阅。
+  tagline: 服务说明、线路指引、白名单播放器与常见问题，一站查阅。
   actions:
     - theme: brand
       text: 开始阅读
@@ -36,7 +36,7 @@ features:
     linkText: 打开面板指南
   - icon: ▶
     title: 播放体验
-    details: 选择合适的播放器，并在卡顿时完成网络与码率自测。
+    details: 查看白名单播放器，并在卡顿时完成网络与码率自测。
     link: /player/
-    linkText: 选择播放器
+    linkText: 查看白名单播放器
 ---

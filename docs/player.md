@@ -1,21 +1,58 @@
 ---
-title: Emby 播放器列表
-description: 各平台 Emby 播放器推荐与禁用说明
+title: Emby 播放器白名单
+description: 各平台 Emby 白名单播放器与禁用说明
 order: 6
 ---
 
-# Emby 播放器列表
+# Emby 播放器白名单
 
-::: tip
-**已做好软件推荐和禁用提示，请读者分辨**
+::: warning 白名单播放器模式已正式启用
+瞬影已启用**白名单播放器模式**，**仅允许白名单内的播放器访问，非白名单 UA 一律禁止访问**。
 :::
 
 ## 总体规则
 
-1. Infuse（禁止媒体库模式）
+1. 仅允许使用下方白名单内的播放器
 2. 禁止网页端登录
-3. 禁止emby官方客户端
-4. 一切冷门和新出播放器
+3. 禁止 Emby 官方客户端
+4. 禁止一切媒体库模式
+5. 禁止使用来历不明的播放器
+
+## ✅ 白名单播放器（排名不分先后）
+
+- SenPlayer
+- VidHub
+- Infuse
+- Rex
+- Hills
+- Forward
+- chaichai（柴柴TV）
+- Yamby
+- CapyPlayer
+- EplayerX
+- Lenna
+- AfuseKt
+- RodelPlayer
+- Noctra
+- HosPlayer
+- WWPlayer
+- Lumenic
+- Entryway
+- ai-player
+- Filmly
+- Vidora
+- Flow
+- 网易爆米花
+
+::: tip Infuse 用户必看
+使用 **Infuse** 时，必须**关闭媒体库模式**以及**实时预览**功能。
+:::
+
+## ⚠️ 账号与线路安全提示
+
+- 使用来历不明的播放器（例如在闲鱼购买的共享播放器），可能导致**服务器线路以及你的账号密码泄露**。
+- 如果账号后台出现**多地异地 IP 登录**，账号将**直接封禁**。
+- 修改密码后需**扣除 15 天**方可解封；**如剩余时间不足 15 天则不予解封**。
 
 ## 🍏 苹果用户
 
@@ -24,76 +61,41 @@ order: 6
 - **EplayerX** [下载地址](https://apps.apple.com/us/app/video-player-eplayerx/id6747369377) 🟢iOS ( **推荐** )
 - **CapyPlayer** [下载地址](https://testflight.apple.com/join/r3b5ZMVH) 🟢iOS ( **推荐** )
 - **Lenna** [下载地址](https://apps.apple.com/tr/app/lenna-video-library-player/id6502967807) 🟢iOS ( **推荐** )
-- **HumHub** [下载地址](https://apps.apple.com/cn/app/hamhub/id6458691598) | [群组](https://t.me/+m-YbMZDIj7tlYjQ1) 🟢iOS丨TV丨Mac
-- **Conflux** [下载地址](https://apps.apple.com/cn/app/conflux-video-player/id6450330892) | [群组](https://t.me/confluxapp) 🟢iOS丨TV丨Mac
-- **BoxPlayer** [下载地址](https://apps.apple.com/cn/app/boxplayer/id6739804060) 🟢iOS丨TV丨Mac
-- **Femor** [下载地址](https://t.me/femor_notice) 🟢iOS丨TV丨Mac
-- **iPlay** [下载地址](https://apps.apple.com/cn/app/iplay/id6480576133) 🟢iOS丨TV丨Mac
 - **VidHub** [下载地址](https://apps.apple.com/cn/app/vidhub-%E9%AB%98%E6%B8%85%E5%BD%B1%E7%89%87%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8-%E7%9B%B4%E8%BF%9E%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/id1659622164) | [群组](https://t.me/macappsupportgroup) 🟢iOS丨TV丨Mac
-- **AGC Player** [下载地址](https://apps.apple.com/us/app/agc-video-player/id6670426427) | [群组](https://t.me/agcplayer) 🟢iOS丨TV丨Mac
-- **DS One** [下载地址](https://apps.apple.com/tr/app/ds-cloud-video-library-player/id6476057278) | [群组](https://t.me/dscloudfeedback) 🟢iOS丨TV
-- **Reflix** [下载地址](https://apps.apple.com/us/app/reflix/id6621243955?l=zh-Hans-CN) | [群组](https://t.me/+BrlwQi99J41hMzQ1) 🟢iOS丨TV
-- **Filebar** [下载地址](https://apps.apple.com/cn/app/fileball/id1558391784) | [群组](https://t.me/FilebarApp) 🟢iOS丨TV
-- **yybx** [下载地址](https://apps.apple.com/cn/app/yybx/id1519723194) 🟢iOS丨TV
-- **Cinetry** [下载地址](https://github.com/gstory0404/Cinetry) 🟢iOS丨Mac
-- **NipaPlay** [下载地址](https://apps.apple.com/cn/app/nipaplay/id6751284970) 🟢iOS丨Mac
-- **Iemc** [下载地址](https://apps.apple.com/cn/app/iemc/id1467462861) 🟢iOS
-- **BeeJoy** [下载地址](https://apps.apple.com/us/app/beejoy/id6670792086) 🟢iOS
-- **kinby** [下载地址](https://kinby.xac.one/) | [群组](https://t.me/kinby_official) 🟢Mac
-- **爆米花** [下载地址](https://bmh.163.com/) 🟢iOS丨TV丨Mac 
-- **Infuse** [下载地址](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934) 🟢iOS丨TV丨Mac   ( **本服禁止使用媒体库功能** )
-- **Emby官端** [下载地址](https://apps.apple.com/us/app/emby/id992180193) 🟢iOS丨TV丨Mac ( **本服禁止使用** )
- 
+- **Infuse** [下载地址](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934) 🟢iOS丨TV丨Mac ( **必须关闭媒体库模式与实时预览** )
+- **网易爆米花** [下载地址](https://bmh.163.com/) 🟢iOS丨TV丨Mac
 
 ## 💋 安卓手机 / 平板
-
 
 - **Hills** [下载地址](https://t.me/Hills_app) ( **推荐** )
 - **Yamby** [下载地址](https://t.me/yamby_release) ( **推荐** )
 - **Afusekt** [下载地址](https://github.com/AttemptD/AfuseKt-release) ( **推荐** )
-- **CapyPlayer** [下载地址](https://capyplayer.feifeiduck.com/zh) 
-- **Cinetry** [下载地址](https://github.com/gstory0404/Cinetry)
-- **Themby** [下载地址](https://github.com/chicring/Themby/releases)
-- **Femor** [下载地址](https://t.me/femor_notice)
-- **AGC Player** [下载地址](https://agcplayer.com/)
-- **NipaPlay** [下载地址](https://github.com/MCDFsteve/NipaPlay-Reload/releases) 
-- **Emora** [下载地址](https://t.me/emora_official/3) 
-- **Findroid** [下载地址](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin&hl=en_US) 
-- **iPlay** [下载地址](https://github.com/ourfor/iPlay/releases)
+- **CapyPlayer** [下载地址](https://capyplayer.feifeiduck.com/zh)
 - **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/)
-- **爆米花** [下载地址](https://bmh.163.com/)
-- **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
-- **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
+- **网易爆米花** [下载地址](https://bmh.163.com/)
 
 ## 💻 Windows用户
 
 - **Hills Lite** [下载地址](https://apps.microsoft.com/detail/9nxnzfrllwzx?hl=zh-CN&gl=CN) ( **推荐** )
-- **小幻影视** [下载地址](https://apps.microsoft.com/detail/9nb0h051m4v4?hl=zh-CN&gl=CN) ( **推荐** )
 - **AI Player** [下载地址](https://t.me/aiemby)
-- **Tsukimi** [下载地址](https://github.com/tsukinaha/tsukimi/releases)
-- **Femor** [下载地址](https://t.me/femor_notice)
-- **Cinetry** [下载地址](https://github.com/gstory0404/Cinetry)
-- **kinby** [下载地址](https://kinby.xac.one/)
-- **NipaPlay** [下载地址](https://github.com/MCDFsteve/NipaPlay-Reload/releases) 
-- **iPlay** [下载地址](https://github.com/ourfor/iPlay/releases)
-- **爆米花** [下载地址](https://bmh.163.com/) 
-- **Emby官端** [下载地址](https://emby.media/emby-for-windows.html) ( **本服禁止使用** )
-- **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
+- **网易爆米花** [下载地址](https://bmh.163.com/)
 
 ## 📱 安卓TV
 
-
-
 - **柴柴TV** [下载地址](https://github.com/dh374374/ChaiChaiEmbyTV/releases) ( **推荐** )
-- **Cinetry** [下载地址](https://github.com/gstory0404/Cinetry)
-- **Femor** [下载地址](https://t.me/femor_notice)
 - **Afusekt** [下载地址](https://github.com/AttemptD/AfuseKt-release)
-- **kinby** [下载地址](https://kinby.xac.one/)
-- **AGC Player** [下载地址](https://agcplayer.com/)
 - **Vidhub** [下载地址](https://zh.vidhub.okaapps.com/)
-- **爆米花** [下载地址](https://bmh.163.com/) 
-- **TvxEmby** [下载地址](https://t.me/tvxemby) ( **本服禁止使用** )
-- **Emby小秘版** [下载地址](https://t.me/NaoRubbish/119) ( **本服禁止使用** )
-- **Emby官端** [下载地址](https://emby.media/emby-for-android.html) ( **本服禁止使用** )
- 
-## 转自频道[Emby Wiki](https://t.me/embywiki)
+- **网易爆米花** [下载地址](https://bmh.163.com/)
+
+## 其他白名单播放器
+
+- Rex
+- RodelPlayer
+- Noctra
+- HosPlayer
+- WWPlayer
+- Lumenic
+- Entryway
+- Filmly
+- Vidora
+- Flow
