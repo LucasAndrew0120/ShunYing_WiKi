@@ -58,50 +58,33 @@ order: 2
 瞬影已启用**白名单播放器模式**，**仅允许[白名单播放器](/player/)访问，非白名单 UA 一律禁止访问**。
 :::
 
-以下客户端（UA）均被禁用：
+- SenPlayer
+- VidHub
+- Infuse
+- Rex
+- Hills
+- Forward
+- chaichai（柴柴TV）
+- Yamby
+- CapyPlayer
+- EplayerX
+- Lenna
+- AfuseKt
+- RodelPlayer
+- Noctra
+- HosPlayer
+- WWPlayer
+- Lumenic
+- Entryway
+- ai-player
+- Filmly
+- Vidora
+- Flow
+- 网易爆米花
 
-一、Emby 官方客户端
-
-- Emby for Android
-- Emby for iOS
-- Emby for Apple TV
-- Emby for Windows
-- Emby for Samsung
-- Emby for LG
-- Emby Theater
-- Emby Windows
-- Emby Web
-- Emby Web Client
-
-二、TV / 电视端相关
-- Roku
-- Roku SG
-
-三、第三方 / 其他客户端
-
-- infuse-library
-- railux
-- jizhiplayer
-- beejoy-library
-- 一切冷门和新出播放器
-
-(任务媒体库模式的均不允许)
-
-冷门播放器无法判断请求数是否过大，从而对服务器造成拥堵。
-所以冷门播放器也会不定时加入黑名单中。
-
-注:本人时间，能力有限，不会对任何冷门播放器进行检测进行放行。
-随着使用者增加以及知名度上升，本服会酌情剔除出黑名单目录.
-
-::: danger 账号与线路安全
-- 使用来历不明的播放器（例如在闲鱼购买的共享播放器），可能导致**服务器线路以及你的账号密码泄露**。
-- 账号后台出现**多地异地 IP 登录**将**直接封禁**。
-- 修改密码后需**扣除 15 天**方可解封；**如剩余时间不足 15 天则不予解封**。
+::: tip Infuse 用户必看
+使用 **Infuse** 时，必须**关闭媒体库模式**以及**实时预览**功能。
 :::
-
-四、管理及网页相关
-
-- Dashboard
 
 ## 🚫严禁事项
 
