@@ -20,6 +20,9 @@ hero:
       text: 查看 PRO
       link: /pro/
     - theme: alt
+      text: 播放器白名单
+      link: /player/
+    - theme: alt
       text: 发卡站
       link: https://wzyp.cn/shop/VEKJ3ZGK
 

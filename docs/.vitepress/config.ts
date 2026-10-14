@@ -2,7 +2,7 @@ import { readdirSync } from 'node:fs'
 import { dirname, join, relative, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import { createContentTree, createContentTreeWatcher, createSiteStats, sidebarItemToNav, tokenizeChineseSearch } from 'vitepress-wiki-kit/config'
+import { createContentTree, createContentTreeWatcher, createSiteStats, tokenizeChineseSearch } from 'vitepress-wiki-kit/config'
 import { installWikiMarkdown } from 'vitepress-wiki-kit/markdown'
 
 const currentDirectory = dirname(fileURLToPath(import.meta.url))
@@ -44,6 +44,22 @@ function directoryLink(item: DefaultTheme.SidebarItem): DefaultTheme.SidebarItem
 const buildPages = () => createContentTree({ root: docsRoot, routeBase: '/' }).map(directoryLink)
 const pages = buildPages()
 
+const flatPages = new Map<string, DefaultTheme.SidebarItem>()
+const indexPages = (items: DefaultTheme.SidebarItem[]) => {
+  for (const item of items) {
+    if (item.link && !flatPages.has(item.link)) flatPages.set(item.link, item)
+    if (item.items) indexPages(item.items)
+  }
+}
+indexPages(pages)
+
+const navLink = (link: string): DefaultTheme.NavItem => ({ text: flatPages.get(link)?.text ?? link, link })
+const nav: DefaultTheme.NavItem[] = [
+  { text: '服务方案', items: ['/vip/', '/pro/'].map(navLink) },
+  { text: '使用指南', items: ['/panel/', '/player/', '/speed/', '/error/'].map(navLink) },
+  { text: '规则与安全', items: ['/risk/', '/sy/'].map(navLink) },
+]
+
 export default defineConfig({
   lang: 'zh-CN',
   title: '瞬影 Emby',
@@ -68,7 +84,7 @@ export default defineConfig({
   ],
   themeConfig: {
     siteTitle: '瞬影 WiKi',
-    nav: pages.map(sidebarItemToNav),
+    nav,
     sidebar: pages,
     outline: { level: [2, 3], label: '本页目录' },
     sidebarMenuLabel: '文档目录',
