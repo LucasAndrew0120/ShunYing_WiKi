@@ -42,7 +42,7 @@ order: 2
 
 ## 🔗服务导航
 
-- 发卡站: [https://pay.ldxp.cn/shop/VEKJ3ZGK](https://pay.ldxp.cn/shop/VEKJ3ZGK) (不要挂梯访问)
+- 发卡站: [https://wzyp.cn/shop/VEKJ3ZGK](https://wzyp.cn/shop/VEKJ3ZGK) (不要挂梯访问)
 
 - 用户面板: [https://ad.syemby.com/](https://ad.syemby.com/)
 

@@ -12,7 +12,7 @@ order: 4
 
 ## 公费服开号
 
-1. 首先前往[发卡站](https://pay.ldxp.cn/shop/VEKJ3ZGK),购买卡密（卡密支持注册或续费，无开号费）
+1. 首先前往[发卡站](https://wzyp.cn/shop/VEKJ3ZGK),购买卡密（卡密支持注册或续费，无开号费）
 ![发卡站](https://pic1.imgdb.cn/item/6a3254f294699c9c612412c4.webp)
 2. 拿到卡密后，进入[面板](https://ad.syemby.com/login)点击卡密激活
 ![卡密激活](https://pic1.imgdb.cn/item/6a32558194699c9c61241499.webp)完成注册
@@ -38,7 +38,7 @@ order: 4
 ![求片截图](https://pic1.imgdb.cn/item/6a32501d94699c9c6123fd3d.webp)
 
 ## 用户续费
-1. 前往[发卡站](https://pay.ldxp.cn/shop/VEKJ3ZGK),购买卡密（卡密支持注册或续费，无开号费）
+1. 前往[发卡站](https://wzyp.cn/shop/VEKJ3ZGK),购买卡密（卡密支持注册或续费，无开号费）
 ![发卡站](https://pic1.imgdb.cn/item/6a3254f294699c9c612412c4.webp)
 2. 进入[面板](https://ad.syemby.com/),点击左侧**用户续费**
 ![用户续费](https://pic1.imgdb.cn/item/6a3257fb94699c9c612419e0.webp)
